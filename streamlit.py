@@ -8,9 +8,9 @@ classifier = pickle.load(pickle_in)
 @st.cache()
 
 # defining the function which will make the prediction using the data which the user inputs
-def prediction([race_B, Most_Improved_Player, Most_Valuable_Player, Finals_MVP,
+def prediction(race_B, Most_Improved_Player, Most_Valuable_Player, Finals_MVP,
        All_Rookie_Second_Team, All_NBA_First_Team, All_NBA_Second_Team,
-       All_Rookie_First_Team]):
+       All_Rookie_First_Team):
 
        # Making predictions
        prediction = classifier.predict(
