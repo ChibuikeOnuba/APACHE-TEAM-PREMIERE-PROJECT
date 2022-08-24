@@ -19,9 +19,9 @@ def prediction(race_B, Most_Improved_Player, Most_Valuable_Player, Finals_MVP,
               All_Rookie_First_Team]])
        if prediction == 0:
             pred = 'Not Awarded'
-        else:
+       else:
             pred = 'Awarded'#
-        return pred
+       return pred
 
 # This is the main function where we define the webpage
 def main():
