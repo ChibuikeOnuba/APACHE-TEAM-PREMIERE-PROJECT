@@ -37,13 +37,13 @@ def main():
 
     # The following lines create boxes in which user can enter data required to make predictions
     race_B = st.selectbox('Number', ("0", "1"))
-    Most Improved Player = st.selectbox('Number', ("0.0", "1.0"))
-    Most Valuable Player = st.selectbox('Number', ("0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "6.0"))
-    Finals MVP = st.selectbox('Number', ("0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "6.0"))
-    All-Rookie Second Team = st.selectbox('Number', ("0.0", "1.0"))
-    All-NBA First Team = st.selectbox('Number', ("0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "6.0", "7.0", "8.0", "9.0", "10.0", "11.0"))
-    All-NBA Second Team = st.selectbox('Number', ("0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "6.0", "7.0", "8.0"))
-    All-Rookie First Team = st.selectbox('Number', ("0.0", "1.0"))
+    Most_Improved_Player = st.selectbox('Number', ("0.0", "1.0"))
+    Most_Valuable_Player = st.selectbox('Number', ("0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "6.0"))
+    Finals_MVP = st.selectbox('Number', ("0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "6.0"))
+    All_Rookie_Second_Team = st.selectbox('Number', ("0.0", "1.0"))
+    All_NBA_First_Team = st.selectbox('Number', ("0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "6.0", "7.0", "8.0", "9.0", "10.0", "11.0"))
+    All_NBA_Second_Team = st.selectbox('Number', ("0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "6.0", "7.0", "8.0"))
+    All_Rookie_First_Team = st.selectbox('Number', ("0.0", "1.0"))
     result =""
 
     # when 'Predict' is clicked, make the prediction and store it
