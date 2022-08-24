@@ -17,7 +17,7 @@ def prediction(race_B, Most_Improved_Player, Most_Valuable_Player, Finals_MVP,
        [[race_B, Most_Improved_Player, Most_Valuable_Player, Finals_MVP,
               All_Rookie_Second_Team, All_NBA_First_Team, All_NBA_Second_Team,
               All_Rookie_First_Team]])
-        if prediction == 0:
+       if prediction == 0:
             pred = 'Not Awarded'
         else:
             pred = 'Awarded'#
