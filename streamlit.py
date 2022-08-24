@@ -51,7 +51,7 @@ def main():
         result = prediction(race_B, Most_Improved_Player, Most_Valuable_Player, Finals_MVP,
                All_Rookie_Second_Team, All_NBA_First_Team, All_NBA_Second_Team,
                All_Rookie_First_Team)
-               st.success('This player is {}'.format(result))
+        st.success('This player is {}'.format(result))
 
 
     if __name__=='__main__':
